@@ -1,5 +1,5 @@
 <?php
-require('Word/action.php');
+require('./src/Word/action.php');
 $class = new \Word\action();
 $class->setPath('./test.docx');
 $res = $class->handle();

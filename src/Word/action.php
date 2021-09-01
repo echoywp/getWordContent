@@ -9,7 +9,7 @@ class action {
         if (!file_exists($this->path)) {
             return 'File not found';
         }
-        return WordTurnHtml::setHtml()($this->path);
+        return WordTurnHtml::setHtml($this->path);
     }
 
     public function setPath($path) {
