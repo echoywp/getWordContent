@@ -1,0 +1,17 @@
+{
+    "name": "ywp/get-word-content",
+    "authors": [
+        {
+            "name": "ywp",
+            "email": "csdd714342768@qq.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpword": "^0.18.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Word\\Func\\": "src/Word/Func"
+        }
+    }
+}
