@@ -1,5 +1,6 @@
 <?php
 namespace Word;
+
 use Word\Func\WordTurnHtml;
 
 class action {
@@ -9,6 +10,8 @@ class action {
         if (!file_exists($this->path)) {
             return 'File not found';
         }
+        $file_info = mime_content_type($this->path);
+//        die($file_info);
         return WordTurnHtml::setHtml($this->path);
     }
 
