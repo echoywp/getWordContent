@@ -7,12 +7,12 @@
         }
     ],
     "require": {
-        "phpoffice/phpword": "^0.18.2"
+        "phpoffice/phpword": "^0.18.2",
+        "ext-fileinfo": "*"
     },
     "autoload": {
         "psr-4": {
-            "Word\\": "src/Word",
-            "Word\\Func\\": "src/Word/Func"
+            "Word\\": "src/Word"
         }
     }
 }

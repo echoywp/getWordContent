@@ -3,8 +3,7 @@ use Word\action;
 
 require 'vendor/autoload.php';
 $class = new action();
-$class->setPath('./test.docx');
-$res = $class->handle();
-echo '<pre>';
+$class->setLoadPath('./test.docx');
+$res = $class->getHtml();
 print_r($res);
 
