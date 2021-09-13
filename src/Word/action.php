@@ -68,8 +68,7 @@ class action {
     }
 
     /**
-     * @return \PhpOffice\PhpWord\Writer\WriterInterface
-     * @throws \PhpOffice\PhpWord\Exception\Exception
+     * @return bool|mixed
      * 获取html内容
      */
     public function getHtml() {
